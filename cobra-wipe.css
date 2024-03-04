@@ -49,7 +49,7 @@ footer{
     height: clamp(200px, 20vw, 250px);
 }
 #widget{
-    border: 0;
+    border: 0!important;
 }
 h2{
     font-size: 4rem;
