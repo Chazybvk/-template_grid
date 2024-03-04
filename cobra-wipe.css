@@ -32,14 +32,24 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
-header{
+header,footer{
     display: flex;
     width: 100%;
     min-width: 320px;
     height: clamp(150px, 20vw, 200px);
-    background: url("1-5.jpg") center / cover no-repeat;
     align-items: center;
     justify-content: center;
+}
+header{
+    background: url("1-5.webp") center / cover no-repeat;
+}
+footer{
+    background: #282e39;
+    justify-content: space-around;
+    height: clamp(200px, 20vw, 250px);
+}
+#widget{
+    border: 0;
 }
 h2{
     font-size: 4rem;
@@ -47,6 +57,7 @@ h2{
     color: white;
     font-weight: 700;
     filter: drop-shadow(2px 4px 6px black);
+    text-align: center;
 }
 @font-face {
     font-family: Oswald;
