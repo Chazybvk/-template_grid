@@ -48,9 +48,6 @@ footer{
     justify-content: space-around;
     height: clamp(200px, 20vw, 250px);
 }
-#widget{
-    border: 0!important;
-}
 h2{
     font-size: 4rem;
     font-family: 'Oswald';
