@@ -127,10 +127,10 @@ header h2{
 
 }
 .box1{
-    background: url("homework1.jpg") center / cover no-repeat;
+    background: url("homework1.JPG") center / cover no-repeat;
 }
 .box2{
-    background: url("homework2.jpg") center / cover no-repeat;
+    background: url("homework2.JPG") center / cover no-repeat;
 }
 @media screen and (max-width: 960px) {
     .sub-section-1-3 {
