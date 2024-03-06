@@ -89,7 +89,7 @@ header h2{
     padding: 10px;
     transition: .5s;
     /*background-color: rgb(240,240,240);*/
-    background: url("back.JPG") center / cover no-repeat;
+    background: url("back.jpg") center / cover no-repeat;
 }
 .tabs:hover{
     scale: 1.05;
