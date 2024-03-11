@@ -1,0 +1,150 @@
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+   }
+   *,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+   :focus,:active{outline: none;}
+   a:focus,a:active{outline: none;}
+   
+   nav,footer,header,aside{display: block;}
+   
+   html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+   }
+   input,button,textarea{font-family:inherit;}
+   input::-ms-clear{display: none;}
+   button{cursor: pointer;}
+   button::-moz-focus-inner {padding:0;border:0;}
+   a, a:visited{text-decoration: none;}
+   a:hover{text-decoration: none;}
+   ul li{list-style: none;}
+   img{vertical-align: top;}
+   
+   h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+   /*--------------------*/
+   img{
+    width: 250px;
+    height: 250px;
+   }
+   .container{
+    max-width: 1440px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #9de2ff;
+   }
+ /*align-items: center;
+   align-items: baseline; - прибить к левому борту
+   align-items: end; - прибить к правому борту
+   justify-content: center;
+   justify-content: baseline; - прибить к верху
+   justify-content: end; - прибить к низу
+*/
+   .wrapper{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    border-radius: 20px;
+    /*внутренний отступ*/
+    padding: 20px;
+    font-family: sans-serif;
+   }
+   .wrapper *{
+    border-radius: 15px;
+   }
+   .left{
+    display: flex;
+    align-items: center;
+   }
+   .right{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+   }
+   .box{
+    min-height: 80px;/*для наглядности*/
+    width: 100%;
+   }
+   .first{
+    /*новое свойство text-align:center; - выравнивает текст посередине*/
+    text-align: center;
+   }
+   .first h1{
+    /*новое свойство font-size: 25px;*/
+    font-size: 25px;
+    /*новое свойство font-weight: 400;*/
+    font-weight: 700;
+    margin: 0 0 20px 0;
+   }
+   .first h2{
+    font-size:20px;
+    font-weight: 500; 
+   }
+   .second{
+    display: flex;
+    flex-direction: row;
+    background-color: #efefef;
+    padding: 15px;
+   }
+   .second-box{
+    text-align: center;
+    margin: 0 15px 0 0;
+   }
+  .second-box h1{
+    font-size: 18px;
+    margin: 0 0 20px 0;
+   } 
+   .second-box h2{
+    font-size: 25px;
+    font-weight: 700;
+     margin: 0 0 0 0;
+   } 
+   .third{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /*Важное свойство для того, что бы отодвинуть блоки друг от друга*/
+   }
+   .button{
+    border: 2px solid #3a71cb;
+    width: 49%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+   }
+   .chat{
+    background-color: white;
+    color: #3a71cb;
+   }
+   .follow{
+    background-color: #3a71cb;
+    color: white;
+   }
+
+
+
+
+
+
+
+
